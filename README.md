@@ -4,7 +4,7 @@ int main()
 { 
  
   int num,j,n,time,remain,flag=0,time_qtm; 
-  int wait_time=0,turnaround_time=0,at[20],bt[20],rt[20]; 
+  int wait_time=0,turnaround_time=0,at[10],bt[10],rt[10]; 
   printf("Enter Total Process:\t "); 
   scanf("%d",&n); 
   remain=n; 
